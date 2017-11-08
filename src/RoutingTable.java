@@ -1,6 +1,8 @@
 /**
  * Created by Godfather on 2017-11-07.
  */
+
+// A model routing table row
 public class RoutingTable {
     private String mask;
     private String IPAddress;
@@ -22,39 +24,24 @@ public class RoutingTable {
         return mask;
     }
 
-    public void setMask(String mask) {
-        this.mask = mask;
-    }
 
     public String getIPAddress() {
         return IPAddress;
     }
 
-    public void setIPAddress(String IPAddress) {
-        this.IPAddress = IPAddress;
-    }
 
     public String getNextHop() {
         return nextHop;
     }
 
-    public void setNextHop(String nextHop) {
-        this.nextHop = nextHop;
-    }
 
     public String getFlag() {
         return flag;
     }
 
-    public void setFlag(String flag) {
-        this.flag = flag;
-    }
 
     public String getRouterInterface() {
         return routerInterface;
     }
 
-    public void setRouterInterface(String routerInterface) {
-        this.routerInterface = routerInterface;
-    }
 }
